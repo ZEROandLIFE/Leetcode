@@ -1,12 +1,12 @@
 
-  class ListNode {
-      val: number
-      next: ListNode | null
-      constructor(val?: number, next?: ListNode | null) {
-          this.val = (val===undefined ? 0 : val)
-          this.next = (next===undefined ? null : next)
-      }
-  }
+//   class ListNode {
+//       val: number
+//       next: ListNode | null
+//       constructor(val?: number, next?: ListNode | null) {
+//           this.val = (val===undefined ? 0 : val)
+//           this.next = (next===undefined ? null : next)
+//       }
+//   }
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     const dummy = new ListNode(0); // 哑节点，简化头节点处理
