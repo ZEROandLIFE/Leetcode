@@ -7,10 +7,10 @@
 //   }
 // }
 //快慢指针
-function hasCycle(head: ListNode | null): boolean {
-  let fast: ListNode | null = head;
-  let slow: ListNode | null = head;
-  while (fast !== null &&fast!.next !== null ) {
+function hasCycle(head: DoubleLinkListNode | null): boolean {
+  let fast: DoubleLinkListNode | null = head;
+  let slow: DoubleLinkListNode | null = head;
+  while (fast !== null && fast!.next !== null) {
     slow = slow!.next;
     fast = fast.next.next;
     if (slow === fast) return true;

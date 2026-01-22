@@ -8,19 +8,19 @@
 // }
 
 function getIntersectionNode(
-  headA: ListNode | null,
-  headB: ListNode | null
-): ListNode | null {
+  headA: DoubleLinkListNode | null,
+  headB: DoubleLinkListNode | null
+): DoubleLinkListNode | null {
   let lena = 0;
   let lenb = 0;
   let cura = headA;
   let curb = headB;
-    while (cura !== null) {
-      cura=cura.next
+  while (cura !== null) {
+    cura = cura.next;
     lena++;
   }
-    while (curb !== null) {
-      curb=curb.next
+  while (curb !== null) {
+    curb = curb.next;
     lenb++;
   }
   let cha = 0;

@@ -6,7 +6,9 @@
 //     this.next = next === undefined ? null : next;
 //   }
 // }
-function reverseList(head: ListNode | null): ListNode | null {
+function reverseList(
+  head: DoubleLinkListNode | null
+): DoubleLinkListNode | null {
   let pre = null;
   let cur = head;
   let next = head?.next;

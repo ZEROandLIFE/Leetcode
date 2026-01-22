@@ -1,9 +1,9 @@
 function getIntersectionNode(
-  headA: ListNode | null,
-  headB: ListNode | null
-): ListNode | null {
-  let pA: ListNode | null = headA,
-    pB: ListNode | null = headB;
+  headA: DoubleLinkListNode | null,
+  headB: DoubleLinkListNode | null
+): DoubleLinkListNode | null {
+  let pA: DoubleLinkListNode | null = headA,
+    pB: DoubleLinkListNode | null = headB;
 
   // 当 pA 和 pB 不相等时循环
   while (pA !== pB) {
