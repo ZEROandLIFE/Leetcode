@@ -11,7 +11,7 @@
   },
   "include": [
     "**/*.ts"
-, "useless.js"  ],
+, "useless.ts"  ],
   "exclude": [
     "node_modules"
   ]
